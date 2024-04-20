@@ -20,8 +20,9 @@ db_get () {
 These two functions implement a key-value store. You can call `db_set` key value,
 which will store key and value in the database. The key and value can be (almost)
 anything you like—for example, the value could be a JSON document. 
-You can then call `db_get` key, which looks up the most recent value associated with that particular
-key and returns it.
+You can then call `db_get` key, which looks up the most recent value associated with that particular key and returns it. 
+The sed command is used with the expression s/^$1,// to strip the key portion from the beginning of the line, leaving only the value. 
+This transformation ensures that only the value associated with the key is outputted.
 
 
 And it works:
