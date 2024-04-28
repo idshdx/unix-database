@@ -1,7 +1,5 @@
 # shell-database
 
-[Inspiration from Designing Data-Intensive Applications by Martin Kleppmann](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
-
 The world’s simplest database, implemented as two Bash functions
 
 
