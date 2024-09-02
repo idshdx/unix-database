@@ -26,7 +26,7 @@ This transformation ensures that only the value associated with the key is outpu
 And it works:
 ````
 $ db_set 123456 '{"name":"Test","skills":["one","two"]}'
-$ db_set 42 '{"name":"Andreu","skills":["Bash"]}'
+$ db_set 42 '{"name":"Andrei","skills":["Bash"]}'
 $ db_get 42
 {"name":"Andrei","skills":["Bash"]}
 ````
